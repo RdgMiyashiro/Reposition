@@ -22,7 +22,6 @@ import lombok.NoArgsConstructor;
  * @author Jéssica Ayumi Uehara
  */
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @Entity

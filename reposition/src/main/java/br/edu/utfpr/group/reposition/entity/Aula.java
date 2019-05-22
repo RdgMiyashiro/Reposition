@@ -20,8 +20,6 @@ import lombok.Setter;
  * @author Jéssica Ayumi Uehara
  */
 //@Data
-@Getter
-@Setter
 @Builder
 @Entity
 public class Aula implements Serializable {
@@ -39,11 +37,10 @@ public class Aula implements Serializable {
     private Materia materia;
 
     public Aula(Date data, Date dataInit, Date dataFin, Date dataAusencia, String conteudo, Materia materia, Reposicao reposicao) throws Exception {
-        
         validaData(data, dataInit, dataFin, dataAusencia);
-        setConteudo(conteudo);
-        setMateria(materia);
-        setReposicao(reposicao);
+        this.conteudo = conteudo;
+        this.materia = materia;
+        this.reposicao = reposicao;
     }
     
     public void dataPosAusencia(Date data) throws Exception {
@@ -73,7 +70,7 @@ public class Aula implements Serializable {
         dataAposQuinze(data);
         dataValidaCalendario(data, dataInit, dataFin);
         
-        setData_reposicao(data);
+        this.data_reposicao = (data);
     }
     
     private static Date dataLimite(Date date, int dias) {
