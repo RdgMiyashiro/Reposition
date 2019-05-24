@@ -19,10 +19,16 @@ import lombok.Setter;
  *
  * @author Jéssica Ayumi Uehara
  */
+
+/**
+ * Poderia ser usado as anotações NoArgsConstructor e AllArgsConstructor
+ * para omitir a implementação do construtor, economizando linhas de código
+*/
 //@Data
 @Builder
 @Entity
 public class Aula implements Serializable {
+    
     @Id @GeneratedValue
     private Long id;
     
@@ -36,6 +42,10 @@ public class Aula implements Serializable {
     @ManyToOne
     private Materia materia;
 
+    /**
+     * Classe precisa de um construtor sem argumentos
+     */
+    
     public Aula(Date data, Date dataInit, Date dataFin, Date dataAusencia, String conteudo, Materia materia, Reposicao reposicao) throws Exception {
         validaData(data, dataInit, dataFin, dataAusencia);
         this.conteudo = conteudo;
