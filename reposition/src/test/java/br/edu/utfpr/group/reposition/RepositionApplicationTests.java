@@ -14,3 +14,4 @@ public class RepositionApplicationTests {
 	}
 
 }
+// Testes não foram implementados, questão essencial para validar questões solidez e funcionamento da arquitetura
