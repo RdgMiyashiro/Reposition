@@ -57,6 +57,11 @@ public class Aula implements Serializable {
         Date dAtual = new Date();
         if (dAtual.after(data))
             throw new Exception("Data invalida");
+            /*
+                Exceptions genéricas, uma maneira melhor de tratamento, seria criar uma camada de exceptions,
+                o que melhoraria, o entendimento sobre uma exception específica e centralizaria todas as execptions em uma
+                camada.
+            */
     }
     
     public void dataAposQuinze(Date data) throws Exception {
