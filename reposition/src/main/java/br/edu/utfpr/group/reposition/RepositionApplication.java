@@ -11,6 +11,11 @@ public class RepositionApplication implements CommandLineRunner{
 
     private final CalendarioDAO calendarioDAO;
 
+    /**
+     *  A  injeção de dependências está sendo feito corretamente,
+     *  entretanto não é possivel entender o seu fluxo,
+     *  talvez seja algo ainda a ser implementado?
+     */
     @Autowired
     public RepositionApplication(CalendarioDAO calendarioDAO) {
         this.calendarioDAO = calendarioDAO;

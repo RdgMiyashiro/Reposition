@@ -26,10 +26,11 @@ import lombok.NoArgsConstructor;
 public class Materia implements Serializable {
     @Id
     private String codigo;
-    
+
+    //Não seriam muitos alunos?
     @ManyToOne
     private Aluno aluno;
-    
+
     @ManyToOne
     private Professor professor;
 }

@@ -22,9 +22,10 @@ import lombok.Setter;
 
 /**
  * Poderia ser usado as anotações NoArgsConstructor e AllArgsConstructor
- * para omitir a implementação do construtor, economizando linhas de código
+ * para omitir a implementação do construtor, assim economizando linhas de código,
+ * e quando necessário validação de dados, essas podem feitas diretamente pelos setters,
 */
-//@Data
+//@Data A função dos getters e setters é obrigatório nesse caso
 @Builder
 @Entity
 public class Aula implements Serializable {
