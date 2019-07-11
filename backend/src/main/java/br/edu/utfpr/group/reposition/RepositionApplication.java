@@ -1,5 +1,6 @@
 package br.edu.utfpr.group.reposition;
 
+import br.edu.utfpr.group.reposition.dao.AulaDAO;
 import br.edu.utfpr.group.reposition.dao.CalendarioDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -10,11 +11,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RepositionApplication implements CommandLineRunner{
 
     private final CalendarioDAO calendarioDAO;
+    private final AulaDAO aulaDAO;
 
     @Autowired
-    public RepositionApplication(CalendarioDAO calendarioDAO) {
+    public RepositionApplication(CalendarioDAO calendarioDAO, AulaDAO aulaDAO) {
         this.calendarioDAO = calendarioDAO;
-    }  
+        this.aulaDAO = aulaDAO;
+    }
     
     public static void main(String[] args) {
             SpringApplication.run(RepositionApplication.class, args);
