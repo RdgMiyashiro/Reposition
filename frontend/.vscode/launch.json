@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProjectExampleApplication",
+            "request": "launch",
+            "mainClass": "br.edu.utfpr.ProjectExampleApplication",
+            "projectName": "frontend"
+        }
+    ]
+}
