@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\777TG\Documents\projeto-arq\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\dao\CalendarioDAO.java
 C:\Users\777TG\Documents\projeto-arq\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Professor.java
 C:\Users\777TG\Documents\projeto-arq\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Aula.java
@@ -15,3 +16,18 @@ C:\Users\777TG\Documents\projeto-arq\Reposition\backend\src\main\java\br\edu\utf
 C:\Users\777TG\Documents\projeto-arq\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Aluno.java
 C:\Users\777TG\Documents\projeto-arq\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\dao\AlunoDAO.java
 C:\Users\777TG\Documents\projeto-arq\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Calendario.java
+=======
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\dao\AlunoDAO.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\dao\MateriaDAO.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Aluno.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\dao\CalendarioDAO.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\dao\ReposicaoDAO.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Aula.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Calendario.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\dao\AulaDAO.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Professor.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Materia.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\entity\Reposicao.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\dao\ProfessorDAO.java
+C:\Users\Rodri\Documents\NetBeansProjects\Reposition\backend\src\main\java\br\edu\utfpr\group\reposition\RepositionApplication.java
+>>>>>>> cf1ceec569095cf968ef16633e42074a7469b517
