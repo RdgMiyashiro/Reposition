@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProjectExampleApplication",
+            "request": "launch",
+            "mainClass": "br.edu.utfpr.ProjectExampleApplication",
+            "projectName": "frontend"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RepositionApplication",
+            "request": "launch",
+            "mainClass": "br.edu.utfpr.group.reposition.RepositionApplication",
+            "projectName": "backend"
+        }
+    ]
+}

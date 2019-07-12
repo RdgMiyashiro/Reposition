@@ -1,7 +1,11 @@
 br\edu\utfpr\group\reposition\entity\Materia.class
 br\edu\utfpr\group\reposition\entity\Aula$AulaBuilder.class
-br\edu\utfpr\group\reposition\entity\Calendario.class
 br\edu\utfpr\group\reposition\dao\CalendarioDAO.class
+br\edu\utfpr\group\reposition\entity\Professor$ProfessorBuilder.class
+br\edu\utfpr\group\reposition\entity\Reposicao.class
+br\edu\utfpr\group\reposition\entity\Aluno.class
+br\edu\utfpr\group\reposition\dao\MateriaDAO.class
+br\edu\utfpr\group\reposition\entity\Calendario.class
 br\edu\utfpr\group\reposition\RepositionApplication.class
 br\edu\utfpr\group\reposition\dao\AlunoDAO.class
 br\edu\utfpr\group\reposition\dao\ProfessorDAO.class
@@ -10,10 +14,6 @@ br\edu\utfpr\group\reposition\entity\Aula.class
 br\edu\utfpr\group\reposition\entity\Calendario$CalendarioBuilder.class
 br\edu\utfpr\group\reposition\dao\ReposicaoDAO.class
 br\edu\utfpr\group\reposition\dao\AulaDAO.class
-br\edu\utfpr\group\reposition\entity\Professor$ProfessorBuilder.class
 br\edu\utfpr\group\reposition\entity\Materia$MateriaBuilder.class
-br\edu\utfpr\group\reposition\entity\Reposicao.class
-br\edu\utfpr\group\reposition\entity\Aluno.class
-br\edu\utfpr\group\reposition\dao\MateriaDAO.class
 br\edu\utfpr\group\reposition\entity\Professor.class
 br\edu\utfpr\group\reposition\entity\Reposicao$ReposicaoBuilder.class

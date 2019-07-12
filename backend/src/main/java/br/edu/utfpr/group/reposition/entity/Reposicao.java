@@ -27,7 +27,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @Entity
 public class Reposicao implements Serializable {
-    @Id @GeneratedValue
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @GeneratedValue
     private Long id;
     
     @Temporal(TemporalType.DATE)
