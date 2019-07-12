@@ -24,7 +24,10 @@ import lombok.Setter;
 @Entity
 @AllArgsConstructor
 public class Aula implements Serializable {
-    @Id @GeneratedValue
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @GeneratedValue
     private Long id;
     
     @Temporal(TemporalType.DATE)
