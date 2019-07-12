@@ -5,6 +5,7 @@
  */
 package br.edu.utfpr.group.reposition.entity;
 
+import br.edu.utfpr.group.reposition.dao.Aluno;
 import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
