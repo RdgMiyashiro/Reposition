@@ -19,6 +19,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
+
+//Funcionalidade do sistema relacionada à reposição de aula, porem nao houve tempo de coloca-la em pratica
 @AllArgsConstructor
 @Data
 @Builder
